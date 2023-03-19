@@ -38,11 +38,13 @@ void Display::ShowQuotation(Quotation* quotation)
     string strAmount;
 
     std::string numTextPrice = std::to_string(quotation->GetUnitPrice());
-    std::string numRounded = numTextPrice.substr(0, numTextPrice.find(".") + 3);
-    strUnitPrice += numRounded;
+    std::string priceRounded = numTextPrice.substr(0, numTextPrice.find(".") + 3);
+    strUnitPrice += priceRounded;
     strUnitPrice += "$";
 
-    strAmount = std::to_string(quotation->GetAmount());
+    std::string numTextResult = std::to_string(quotation->GetResult());
+    std::string resultRounded = numTextResult.substr(0, numTextResult.find(".") + 3);
+    strAmount += resultRounded;
     strAmount += "$";
 
     cout << "\tNumero de identificacion: " << quotation->GetId() << endl;

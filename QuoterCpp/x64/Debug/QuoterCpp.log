@@ -1,23 +1,10 @@
-﻿  Clothe.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Clothe.cpp(6,26): warning C4305: '*=': truncamiento de 'double' a 'float'
-  Display.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(136,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(169,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(199,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
-  Pants.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Pants.cpp(16,26): warning C4305: '*=': truncamiento de 'double' a 'float'
+﻿  Display.cpp
+C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(138,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(171,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
+C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Display.cpp(201,13): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
   Presenter.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Presenter.cpp(185,44): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Presenter.cpp(204,26): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Presenter.cpp(204,39): warning C4566: el carácter representado por el nombre de carácter universal '\uFFFD' no se puede representar en la página de códigos actual (1252)
   Quotation.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Quotation.cpp(17,29): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
   QuotationSystem.cpp
   QuoterCpp.cpp
-  Seller.cpp
-  Shirt.cpp
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Shirt.cpp(17,25): warning C4305: '*=': truncamiento de 'double' a 'float'
-C:\Users\Juan\source\repos\QuoterCpp\QuoterCpp\Shirt.cpp(21,26): warning C4305: '*=': truncamiento de 'double' a 'float'
-  Store.cpp
   Generando código...
   QuoterCpp.vcxproj -> C:\Users\Juan\source\repos\QuoterCpp\x64\Debug\QuoterCpp.exe

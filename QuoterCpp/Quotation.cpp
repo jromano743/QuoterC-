@@ -14,7 +14,7 @@ Quotation::Quotation(int id, Seller* seller, Clothe* clothes, float unitPrice, i
     this->unitPrice = unitPrice;
     this->quantity = quantity;
     clothes->CalculateUnitPrice(unitPrice);
-    this->amount = quantity * unitPrice;
+    this->result = quantity * unitPrice;
 };
 
 string Quotation::GetDate()

@@ -19,7 +19,7 @@ private:
     Clothe* clothes;
     float unitPrice;
     int quantity;
-    int amount;
+    float result;
 
 public:
     Quotation();
@@ -30,5 +30,5 @@ public:
     string GetClothesFullName() { return clothes->GetFullName(); }
     float GetUnitPrice() { return unitPrice; };
     int GetQuantity() { return quantity; };
-    int GetAmount() { return amount; };
+    float GetResult() { return result; };
 };

@@ -97,20 +97,20 @@ void Presenter::PrintMenu()
         opt = PrintMainMenu();
         switch (opt)
         {
-        case 1:
-            MakeNewQuotationMenu();
-            PrintMenu();
-            break;
-        case 2:
-            ShowQuotationHistoryMenu();
-            PrintMenu();
-            break;
-        case 0:
-            cout << "Apagando..." << endl;
-            break;
-        default:
-            cout << "Invalid Option" << endl;
-            break;
+            case 1:
+                MakeNewQuotationMenu();
+                PrintMenu();
+                break;
+            case 2:
+                ShowQuotationHistoryMenu();
+                PrintMenu();
+                break;
+            case 0:
+                cout << "Apagando..." << endl;
+                break;
+            default:
+                cout << "Invalid Option" << endl;
+                break;
         }
     } while (opt != 0);
 
@@ -142,7 +142,6 @@ int Presenter::PrintNewQuotationMenu()
         cin >> opt;
         if (opt == 3)
         {
-
             ShowQuotationHistoryMenu();
         }
     } while (opt != 1 && opt != 2 && opt != 0);
@@ -182,7 +181,7 @@ void Presenter::LoadShirtCollars(int* optionSelected)
         }
     } while (opt != 1 && opt != 2 && opt != 0);
 
-    collarType = opt == 1 ? "Cuello mao" : "Cuello com�n";
+    collarType = opt == 1 ? "Cuello mao" : "Cuello comun";
 
     *optionSelected = opt;
 }
@@ -201,7 +200,7 @@ void Presenter::LoadPantsType(int* optionSelected)
         }
     } while (opt != 1 && opt != 2 && opt != 0);
 
-    cutType = opt == 1 ? "Chup�n" : "Com�n";
+    cutType = opt == 1 ? "Chupin" : "Comun";
 
     *optionSelected = opt;
 }
